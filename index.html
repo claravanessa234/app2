@@ -1,0 +1,357 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segundo Aplicacion</title>
+
+ <!--gupo CSS-->
+    <link rel="stylesheet" href="css/tema-app1.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"></script>	
+    <script src="phonegap.js"></script>
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+    <script type="text/javascript">
+	
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/nokia2.jpg','imagenes/sony8.jpg','imagenes/comunicaciones-sociales.jpg','imagenes/celda2.png','imagenes/RED3.jpg','imagenes/mono1.jpg')">
+
+    	<div data-role="page" id="Principal" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Telefonia Celular </h1>
+        </div>
+        <div data-role="main" class="ui-content">
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1>NOKYA</h1>
+                  <div>
+                   <p>Nokia Asha309</p>
+                   <br>
+                  </div>
+                  <div>
+               	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/nokia2.jpg',1)"><img src="imagenes/nokia1.jpg" width="500" height="350" id="Image5"></a> </div>
+          </div>
+          </div>
+                <div data-role="main" class="ui-content">
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1>SONY</h1>
+                  <div>
+                   <p>SONY XPERIA M</p>
+                   <br>
+                  </div>
+                  <div>
+               	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/sony8.jpg',1)"><img src="imagenes/sony 7.jpg" width="400" height="200" id="Image6"></a> </div>
+                 </div>
+                </div>
+                <div>
+            <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+            <li class="ui-first-child ui-last-child">
+              <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2>Definicion</h2>
+                  <p>Se mostrara la definicion de la telefonia celular</p>
+               </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+               <a href="#Pagina2"class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2>Historia</h2>
+                  <p>se mostrara la historia de la telefonia celular </p>
+               </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+               <a href="#Pagina3"class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2>Clasificacion</h2>
+                  <p>se mostrara la clasificacion </p>
+               </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+               <a href="#Pagina4"class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2>Compañias</h2>
+                  <p>se mostrara las compañias que brindan el servicio</p>
+               </a>
+            </li>
+            
+            </ul>
+            <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/sony6.jpg" alt="sony" title="sony" id="wows1_0"/></li>
+		<li><img src="data1/images/celular1.jpg" alt="Nokia" title="Nokia" id="wows1_1"/></li>
+		<li><img src="data1/images/celular3.jpg" alt="Nokia" title="Nokia" id="wows1_2"/></li>
+		<li><img src="data1/images/gama_alta.jpg" alt="Samsung" title="Samsung" id="wows1_3"/></li>
+		<li><img src="data1/images/nokia1.jpg" alt="Nokia" title="Nokia" id="wows1_4"/></li>
+		<li><img src="data1/images/nokia2.jpg" alt="Nokia" title="Nokia" id="wows1_5"/></li>
+		<li><img src="data1/images/sony2.jpg" alt="Sony" title="Sony" id="wows1_6"/></li>
+		<li><img src="data1/images/sony3.jpg" alt="Sony" title="Sony" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/sony4.jpg" alt="responsive slider" title="Sony" id="wows1_8"/></a></li>
+		<li><img src="data1/images/sony5.jpg" alt="Sony" title="Sony" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="sony"><span><img src="data1/tooltips/sony6.jpg" alt="sony"/>1</span></a>
+		<a href="#" title="Nokia"><span><img src="data1/tooltips/celular1.jpg" alt="Nokia"/>2</span></a>
+		<a href="#" title="Nokia"><span><img src="data1/tooltips/celular3.jpg" alt="Nokia"/>3</span></a>
+		<a href="#" title="Samsung"><span><img src="data1/tooltips/gama_alta.jpg" alt="Samsung"/>4</span></a>
+		<a href="#" title="Nokia"><span><img src="data1/tooltips/nokia1.jpg" alt="Nokia"/>5</span></a>
+		<a href="#" title="Nokia"><span><img src="data1/tooltips/nokia2.jpg" alt="Nokia"/>6</span></a>
+		<a href="#" title="Sony"><span><img src="data1/tooltips/sony2.jpg" alt="Sony"/>7</span></a>
+		<a href="#" title="Sony"><span><img src="data1/tooltips/sony3.jpg" alt="Sony"/>8</span></a>
+		<a href="#" title="Sony"><span><img src="data1/tooltips/sony4.jpg" alt="Sony"/>9</span></a>
+		<a href="#" title="Sony"><span><img src="data1/tooltips/sony5.jpg" alt="Sony"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+          </div>
+          <div data-role="footer"align="center" data-theme="a" data-position="fixed">
+             <div>
+                <img src="res/android/mdpi.png" width="46" height="46">
+             </div>
+             <div>
+                 <h4>Aplicacion Dos</h4>
+                 <h4>Clara Vanessa Camacho Tlatelpa</h4>
+             </div>
+           </div>
+           </div>
+           <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                 <h1>Definicion</h1>
+             </div>
+<div data-role="content" align="center">
+<div>
+                    <h2>Telefonia Celular </h2>
+                    <div>La <strong>telefonía móvil</strong>, también llamada telefonía celular, básicamente está formada por dos grandes partes: una red de comunicaciones (o red de telefonía móvil) y los terminales (o teléfonos móviles) que permiten el acceso a dicha red.</div>
+                    <div><strong>Red de comunicaciones</strong></div>
+                    <div>La red de celulares es una red de celdas que casa una cuenta con su propio transmisor, conocidas como estación o base. Estas celdas son usadas con el fin de cubrir diferentes áreas para proveer cobertura de radio sobre un área más grande que el de una celda. Una celda es una pequeña parte de la ciudad. Cada celda tiene una estación base que consiste de una torre y un pequeño edificio que contiene el equipo de radio. La tecnología celular requiere un gran número de bases o estaciones en una ciudad de cualquier tamaño.</div>
+ 
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1>RED TELEFONICA</h1>
+                  <div>
+                   <p></p>
+                   <br>
+               </div>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/comunicaciones-sociales.jpg',1)"><img src="imagenes/red telefonica.jpg" width="320" height="262" id="Image7"></a> </div>
+</div>
+           	<div data-role="collapsible" data-content-theme="false">
+            	<h1>ESTACION O BASE</h1>
+              <div>
+                   <p></p>
+                   <br>
+               </div>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('77','','imagenes/RED3.jpg',1)"><img src="imagenes/RED1.jpg" width="450" height="268" id="77"></a>
+              </div>
+
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1>Celdas Telefonia</h1>
+              <div>
+                   <p></p>
+                   <br>
+              </div>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/celda2.png',1)"><img src="imagenes/celda1.jpg" width="442" height="304" id="Image9"></a>
+<p>&nbsp;</p>
+        </div>
+                  <div></div>
+                 </div>
+                 
+                </div>            <p>&nbsp;</p>
+    
+ 
+<div data-role="footer" data-theme="a" data-position="fixed">
+                 <h4>AplicacionUno,C.V.C.T</h4>
+              </div>
+</div>          
+           
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                 <h1>HISTORIA</h1>
+             </div>
+             <div data-role="content" align="center">
+                 <div>
+                    <p>Martin Cooper fue el pionero en esta tecnología, a él se le considera como "el padre de la telefonía celular" al introducir el primer radioteléfono, en 1973, en Estados Unidos, mientras trabajaba para Motorola; pero no fue hasta 1979 cuando aparecieron los primeros sistemas comerciales en Tokio, Japón por la compañía NTT.</p>
+                    <p>En 1981, los países nórdicos introdujeron un sistema celular similar a AMPS (Advanced Mobile Phone System). Por otro lado, en Estados Unidos, gracias a que la entidad reguladora de ese país adoptó reglas para la creación de un servicio comercial de telefonía celular, en 1983 se puso en operación el primer sistema comercial en la ciudad de Chicago.</p>
+                    <p>Con ese punto de partida, en varios países se diseminó la telefonía celular como una alternativa a la telefonía convencional inalámbrica. La tecnología tuvo gran aceptación, por lo que a los pocos años de implantarse se empezó a saturar el servicio. En ese sentido, hubo la necesidad de desarrollar e implantar otras formas de acceso múltiple al canal y transformar los sistemas analógicos a digitales, con el objeto de darle cabida a más usuarios. Para separar una etapa de la otra, la telefonía celular se ha caracterizado por contar con diferentes generaciones. A continuación, se describe cada una de ellas.</p>
+       	<div data-role="collapsible" data-content-theme="false">
+       	  <h1>Pionero de esta tecnologia </h1>
+              <div>
+                <p>Martin cooper</p>
+                <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image23','','imagenes/mono1.jpg',1)"><img src="imagenes/padre1.jpg" width="550" height="367" id="Image23"></a></p>
+                <p></p>
+                   <br>
+               </div>
+            
+              </div>    
+              
+              
+              
+               <div data-role="collapsible" data-content-theme="false">
+       	  <h1>Los primeros te </h1>
+              <div>
+                <p>El primer radio telefonico</p>
+                <img src="imagenes/radio.jpg" width="540" height="368">
+<p></p>
+                   <br>
+               </div>
+            
+              </div>
+              
+              
+              
+              <div data-role="collapsible" data-content-theme="false">
+       	  <h1>Pionero de esta tecnologia </h1>
+              <div>
+                <p>Evolucion de la telefonia celular</p>
+                <img src="imagenes/radio2.jpg" width="520" height="360">
+<p></p>
+                   <br>
+               </div>
+            
+              </div>
+              
+              
+              
+                  
+                 </div>
+              </div>
+              <div data-role="footer" data-theme="a" data-position="fixed">
+                 <h4>AplicacionUno,C.V.C.T</h4>
+              </div>
+           </div
+             
+               ><div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                 <h1>CLASIFICACION </h1>
+             </div>
+<div data-role="content" align="center">
+                 <div>
+                    <h2>GAMA ALTA</h2>
+                    <p>En este nivel encajan los smartphones que estén dotados con casi todos los elementos más evolucionados de la telefonía móvil que citamos anteriormente, pero posiblemente por el sistema operativo u otra causa no cumple de manera completa con cada uno de esos requisitos. Por ejemplo, el gigantesco Samsung Galaxy mega 6.3 cuenta con características notables, pero llegó con procesador de doble núcleo y memoria RAM de 1.5GB, cuando en el mercado existen telefonos celulares con cuatro núcleos  y 2GB de RAM. De haber tenido ambos componentes, el Galaxy Mega 6.3 estaría en el estrato superior. De igual forma, podemos colocar aquí teléfonos con muchas especificaciones de móviles de media gama plus, siempre y cuando ese celular proporcione innovaciones únicas que marcan hito en el sector. ¿Qué podemos entender como 'innovación única'? Sencillo, una novedad que no encontremos en ningún otro dispositivo, como por ejemplo la cámara fotográfica del Nokia lumia 1020, con sus 41 megapixeles, tecnología pure view y excelente apertura del diafragma de f/2.2. Eso asigna valor agregado al teléfono.</p>
+                    <div data-role="collapsible" data-content-theme="false">
+            	<h1>Samsung s6</h1>
+              <div>
+                   <p></p>
+                   <br>
+               </div>
+              <img src="imagenes/gama alta.jpg" width="250" height="250"> </div>
+              
+                    <p>&nbsp;</p>
+                 </div>
+                 <div>
+                 <h2>GAMA MEDIA</h2>
+                <P> Los smartphones de media gama se caracterizan por tener pantallas de calidad, pero de menor tamaño, resolución y profundidad de pixeles por pulgada; en la mayoría de los casos funcionan con una versión anterior a la más actual de su sistema operativo; los procesadores no tienen la potencia de los que encontramos en gamas superiores, y las cámaras y fotográficas generalmente cuentan con menos cantidad de megapíxeles. En esta categoría también situaremos a cierto número de celulares que en su momento fueron considerados de alta gama, pero que se han quedado rezagados por los adelantos que se producen en la telefonía celular. Por ejemplo, ¿dónde colocarías un smartphone con procesador dual-core y velocidad de hasta 1.2 GHz, que además llegó originalmente con sistema operativo Android v2.3.4 Gingerbread, memoria RAM de 1GB y batería de tan sólo 1.650 mAh? Pues bien, esas características corresponden al afamado Samsung Galaxy S II, que salió al mercado como un dispositivo móvil de alta gama en abril de 2011 y fue líder en ventas hasta comienzo del 2012. Pues ese móvil ya no es un celular de alta gama, es de media gama.</P>
+              <div data-role="collapsible" data-content-theme="false">
+            	<h1>Sony Erisson</h1>
+              <div>
+                   <p></p>
+                   <br>
+               </div>
+              <img src="imagenes/SONY ERICSSON.jpg"width="250" height="250"> </div>
+              </div>
+              <div>
+              <h2>GAMA BAJA</h2>
+            <P>  En esta categoría distribuiremos los celulares inteligentes con plataformas que no dan soporte a muchas utilidades que tienen los teléfonos de otras gamas. Sus pantallas son de escasas dimensiones y resolución, poca memoria RAM y mínima capacidad de almacenamiento interno, cámaras VGA (no llegan al Megapíxel), menores herramientas, acceso a redes y aplicaciones, entre otros aspectos. Se diferencian de los teléfonos básicos (no inteligentes), por el hecho de permitir funcionalidades que van más allá de llamar y recibir llamadas. La clave de todo es que los smartphones trabajan con un sistema operativo informático móvil, dotado de una interfaz para el acceso a Internet, cuentas de correo electrónico y el ingreso de datos a través de un teclado QWERTY. Permiten instalación de programas, la lectura de documentos en distintos formatos y te ayudan a realizar tareas y organizar tus archivos personales. Están diseñados de manera muy sencilla para la fácil y rápida compenetración del usuario, los materiales de fabricación garantizan durabilidad y la batería generalmente es de gran rendimiento.</P>
+            <div data-role="collapsible" data-content-theme="false">
+            	<h1>Acatel pop</h1>
+              <div>
+                   <p></p>
+                   <br>
+               </div>
+              <img src="imagenes/ACATEL.jpg"width="250" height="250"> </div>
+              </div>
+            </div>
+            </div>
+            
+              
+              
+<div data-role="footer" data-theme="a" data-position="fixed">
+                 <h4>AplicacionUno,C.V.C.T</h4>
+              </div>
+           </div>
+             
+             
+              <div data-role="page4" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                 <h1>COMPAÑIAS QUE OFRECEN ESTE SERVICIO</h1>
+</div>
+<div data-role="content" align="center">
+                
+    
+       	<div data-role="collapsible" data-content-theme="false">
+       	  <h1>Telcel </h1>
+              <div>
+                <p></p>
+                <p>
+                  <img src="imagenes/telcel.jpeg" width="88" height="55">
+                <p></p>
+                   <br>
+          </div>
+            
+              </div>  
+              
+              <div data-role="collapsible" data-content-theme="false">
+       	  <h1>Movistar </h1>
+              <div>
+                <p></p>
+                <p>
+                  <img src="imagenes/movistar.png" width="88" height="55">
+                <p></p>
+                   <br>
+          </div>
+            
+              </div>
+              
+              
+              <div data-role="collapsible" data-content-theme="false">
+       	  <h1>Unefon </h1>
+              <div>
+                <p></p>
+                <p>
+                  <img src="imagenes/unefon.jpeg" width="88" height="55">
+                <p></p>
+                   <br>
+          </div>
+            
+              </div>
+              <div data-role="collapsible" data-content-theme="false">
+       	  <h1>Axtel</h1>
+              <div>
+                <p></p>
+                <p>
+                  <img src="imagenes/axtel.jpeg" width="88" height="55">
+                <p></p>
+                   <br>
+          </div>
+            
+              </div>
+              
+<div data-role="footer" data-theme="a" data-position="fixed">
+                      <h4>Aplicacion , C.V.C.T</h4>
+                     </div>
+                     
+          </div>
+</body>
+</html>

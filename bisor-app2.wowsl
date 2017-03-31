@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>28</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>bisor-app2</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>blur</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/tick/</ImageTemplate>
+            <ImageTemplateName>Tick</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>J:/DAM/SEGUNDO PARCIAL/Aplicaciones/app2/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>J:/DAM/SEGUNDO PARCIAL/Aplicaciones/app2</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#555555</TemplateColor>
+            <TemplateFont>Marck Script</TemplateFont>
+            <TemplateName>tick</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/Aplicaciones/app2/imagenes/sony6.jpg</url>
+                <title>sony</title>
+                <filesize>90086</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/Aplicaciones/app2/imagenes/celular1.jpg</url>
+                <title>Nokia</title>
+                <filesize>7605</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/Aplicaciones/app2/imagenes/celular3.jpg</url>
+                <title>Nokia</title>
+                <filesize>9724</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/Aplicaciones/app2/imagenes/gama alta.jpg</url>
+                <title>Samsung</title>
+                <filesize>19918</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/Aplicaciones/app2/imagenes/nokia1.jpg</url>
+                <title>Nokia</title>
+                <filesize>15032</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/Aplicaciones/app2/imagenes/nokia2.jpg</url>
+                <title>Nokia</title>
+                <filesize>35368</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/Aplicaciones/app2/imagenes/sony2.jpg</url>
+                <title>Sony</title>
+                <filesize>7473</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/Aplicaciones/app2/imagenes/sony3.jpg</url>
+                <title>Sony</title>
+                <filesize>6208</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/Aplicaciones/app2/imagenes/sony4.jpg</url>
+                <title>Sony</title>
+                <filesize>69288</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/SEGUNDO PARCIAL/Aplicaciones/app2/imagenes/sony5.jpg</url>
+                <title>Sony</title>
+                <filesize>60114</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
